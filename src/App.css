@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans");
+
+:root {
+  --primaryColor: #5fb7ea;
+  --primaryRGBA: rgba(0, 0, 0, 0.3);
+  --mainGrey: #fafafa;
+  --darkGrey: #5f5e5e;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainTransition: all 0.3s ease-in-out;
+  --mainSpacing: 0.3rem;
+}
+.text-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.text-main {
+  color: var(--primaryColor);
+}
+body {
+  font-family: "Open Sans", sans-serif !important;
+  background: var(--mainGrey) !important;
+  color: var(--mainBlack);
+}
+.main-link {
+  padding: 0.5rem 1rem;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid var(--primaryColor);
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+}
+.main-link:hover {
+  background: var(--darkGrey);
+  text-decoration: none;
+  color: var(--primaryColor);
+  outline-color: var(--darkGrey);
+}
+.partcle{
+  /* background: #5f5e5e; */
+  size: 0rem;
+  size: 10rem;
+  height: 25rem;
+}
+.partle{
+  background: #5f5e5e;
+  size: 0rem;
+  size: 10rem;
+  height: 25rem;
+
+}
+
+.bf{
+  padding: 0.05rem 7rem;
+  
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  
+  
+}
+
+.menu_button{
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  outline: 2px solid var(--primaryColor);
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+display: inline-block;
+padding: 0.4rem 1rem;
+margin: 15px;
+margin-right: 20px
+}
+
+.menu_button:hover{
+  background: var(--darkGrey);
+  text-decoration: none;
+  color: rgb(248, 237, 237);
+  outline-color: var(--darkGrey);
+
+}
